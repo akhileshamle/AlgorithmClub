@@ -11,7 +11,7 @@
 		045F6C9E21B43AC90013A9AD /* QueueSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6C9D21B43AC90013A9AD /* QueueSimple.swift */; };
 		045F6CA021B43CDD0013A9AD /* QueueOptimized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6C9F21B43CDD0013A9AD /* QueueOptimized.swift */; };
 		045F6CA221B445090013A9AD /* QueueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6CA121B445090013A9AD /* QueueRepository.swift */; };
-		045F6CA521B450C50013A9AD /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6CA421B450C50013A9AD /* InsertionSort.swift */; };
+		045F6CA721B4526D0013A9AD /* InsertionSortRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */; };
 		049E0C9F21B2848A001EF06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E0C9E21B2848A001EF06E /* AppDelegate.swift */; };
 		049E0CA421B2848A001EF06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E0CA221B2848A001EF06E /* Main.storyboard */; };
 		049E0CA721B2848A001EF06E /* theSwiftAlgorithmClub_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049E0CA521B2848A001EF06E /* theSwiftAlgorithmClub_iOS.xcdatamodeld */; };
@@ -47,7 +47,7 @@
 		045F6C9D21B43AC90013A9AD /* QueueSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueSimple.swift; sourceTree = "<group>"; };
 		045F6C9F21B43CDD0013A9AD /* QueueOptimized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueOptimized.swift; sourceTree = "<group>"; };
 		045F6CA121B445090013A9AD /* QueueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRepository.swift; sourceTree = "<group>"; };
-		045F6CA421B450C50013A9AD /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortRepository.swift; sourceTree = "<group>"; };
 		049E0C9B21B2848A001EF06E /* theSwiftAlgorithmClub_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theSwiftAlgorithmClub_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0C9E21B2848A001EF06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049E0CA321B2848A001EF06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,7 +120,6 @@
 		045F6CA321B450AA0013A9AD /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
-				045F6CA421B450C50013A9AD /* InsertionSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -236,6 +235,7 @@
 			children = (
 				049E0CDC21B28CA8001EF06E /* StackRepository.swift */,
 				045F6CA121B445090013A9AD /* QueueRepository.swift */,
+				045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -372,7 +372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				045F6CA221B445090013A9AD /* QueueRepository.swift in Sources */,
-				045F6CA521B450C50013A9AD /* InsertionSort.swift in Sources */,
 				049E0CDA21B2862B001EF06E /* Constants.swift in Sources */,
 				045F6CA021B43CDD0013A9AD /* QueueOptimized.swift in Sources */,
 				049E0CD721B28611001EF06E /* HomeViewController.swift in Sources */,
@@ -381,6 +380,7 @@
 				049E0C9F21B2848A001EF06E /* AppDelegate.swift in Sources */,
 				049E0CDD21B28CA8001EF06E /* StackRepository.swift in Sources */,
 				049E0CA721B2848A001EF06E /* theSwiftAlgorithmClub_iOS.xcdatamodeld in Sources */,
+				045F6CA721B4526D0013A9AD /* InsertionSortRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
