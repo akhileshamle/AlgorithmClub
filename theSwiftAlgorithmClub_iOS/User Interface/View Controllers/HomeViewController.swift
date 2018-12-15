@@ -1,10 +1,7 @@
-//
 //  HomeViewController.swift
 //  theSwiftAlgorithmClub_iOS
-//
 //  Created by Akhilesh Amle on 01/12/18.
 //  Copyright © 2018 AkhileshAmle. All rights reserved.
-//
 
 import UIKit
 
@@ -34,6 +31,7 @@ class HomeViewController: UIViewController {
     private func setup() {
         self.stackOperation()
         self.queueOpetation()
+        self.insertionSortOperation()
     }
     
     private func stackOperation() {
@@ -44,5 +42,10 @@ class HomeViewController: UIViewController {
     private func queueOpetation() {
         let queueRepo = QueueRepository()
         queueRepo.queueAllOperations()
+    }
+    
+    private func insertionSortOperation() {
+        let insertionSortRepo = InsertionSortRepository()
+        insertionSortRepo.insertionSortOperation()
     }
 }
