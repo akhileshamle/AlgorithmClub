@@ -13,7 +13,7 @@ class InsertionSort: NSObject {
     ///   - array: the array of elements to be sorted
     ///   - isOrderedBefore: returns true if the elements provided are in the correct order
     /// - Returns: a sorted array containing the same elements
-    func insettionSortGeneric<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
+    func insetionSortGeneric<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
         guard array.count > 1 else { return array }
         
         var a = array

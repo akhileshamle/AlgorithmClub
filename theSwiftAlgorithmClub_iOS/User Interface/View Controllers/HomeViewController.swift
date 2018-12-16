@@ -32,6 +32,7 @@ class HomeViewController: UIViewController {
         self.stackOperation()
         self.queueOpetation()
         self.insertionSortOperation()
+        self.binarySearchOperation()
     }
     
     private func stackOperation() {
@@ -47,5 +48,10 @@ class HomeViewController: UIViewController {
     private func insertionSortOperation() {
         let insertionSortRepo = InsertionSortRepository()
         insertionSortRepo.insertionSortOperation()
+    }
+    
+    private func binarySearchOperation() {
+        let binarySearchRepo = BinarySearchRepository()
+        binarySearchRepo.binarySearchOperation()
     }
 }

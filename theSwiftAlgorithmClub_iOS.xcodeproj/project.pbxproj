@@ -12,6 +12,8 @@
 		045F6CA021B43CDD0013A9AD /* QueueOptimized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6C9F21B43CDD0013A9AD /* QueueOptimized.swift */; };
 		045F6CA221B445090013A9AD /* QueueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6CA121B445090013A9AD /* QueueRepository.swift */; };
 		045F6CA721B4526D0013A9AD /* InsertionSortRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */; };
+		04678F6D21C67F37003F062F /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04678F6C21C67F37003F062F /* BinarySearch.swift */; };
+		04678F6F21C68170003F062F /* BinarySearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04678F6E21C68170003F062F /* BinarySearchRepository.swift */; };
 		0489462621C51D7D0017A235 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489462521C51D7D0017A235 /* InsertionSort.swift */; };
 		049E0C9F21B2848A001EF06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E0C9E21B2848A001EF06E /* AppDelegate.swift */; };
 		049E0CA421B2848A001EF06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E0CA221B2848A001EF06E /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 		045F6C9F21B43CDD0013A9AD /* QueueOptimized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueOptimized.swift; sourceTree = "<group>"; };
 		045F6CA121B445090013A9AD /* QueueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueRepository.swift; sourceTree = "<group>"; };
 		045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortRepository.swift; sourceTree = "<group>"; };
+		04678F6C21C67F37003F062F /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		04678F6E21C68170003F062F /* BinarySearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchRepository.swift; sourceTree = "<group>"; };
 		0489462521C51D7D0017A235 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		049E0C9B21B2848A001EF06E /* theSwiftAlgorithmClub_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theSwiftAlgorithmClub_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0C9E21B2848A001EF06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,14 @@
 			path = Queue;
 			sourceTree = "<group>";
 		};
+		04678F6B21C67F22003F062F /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				04678F6C21C67F37003F062F /* BinarySearch.swift */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
 		0489462421C51D6F0017A235 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +162,7 @@
 		049E0C9D21B2848A001EF06E /* theSwiftAlgorithmClub_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				04678F6B21C67F22003F062F /* Searching */,
 				049E0CD821B2861E001EF06E /* Utilities */,
 				0489462421C51D6F0017A235 /* Sorting */,
 				049E0CD321B2858C001EF06E /* Datastructures */,
@@ -239,6 +252,7 @@
 				049E0CDC21B28CA8001EF06E /* StackRepository.swift */,
 				045F6CA121B445090013A9AD /* QueueRepository.swift */,
 				045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */,
+				04678F6E21C68170003F062F /* BinarySearchRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -382,6 +396,8 @@
 				049E0CD521B285C8001EF06E /* Stack.swift in Sources */,
 				049E0C9F21B2848A001EF06E /* AppDelegate.swift in Sources */,
 				049E0CDD21B28CA8001EF06E /* StackRepository.swift in Sources */,
+				04678F6D21C67F37003F062F /* BinarySearch.swift in Sources */,
+				04678F6F21C68170003F062F /* BinarySearchRepository.swift in Sources */,
 				0489462621C51D7D0017A235 /* InsertionSort.swift in Sources */,
 				049E0CA721B2848A001EF06E /* theSwiftAlgorithmClub_iOS.xcdatamodeld in Sources */,
 				045F6CA721B4526D0013A9AD /* InsertionSortRepository.swift in Sources */,

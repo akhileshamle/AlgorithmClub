@@ -15,11 +15,11 @@ class InsertionSortRepository: NSObject {
         print(insertionSort.insertionSortATinyBitFaster(array:list))
         
         let numbers = [56465,23,1,68,89,423,1,8,798,4231]
-        print(insertionSort.insettionSortGeneric(numbers, <))
-        print(insertionSort.insettionSortGeneric(numbers, >))
+        print(insertionSort.insetionSortGeneric(numbers, <))
+        print(insertionSort.insetionSortGeneric(numbers, >))
         
         let strings = ["g","h","e","s","a","c","b","m","l","x"]
-        print(insertionSort.insettionSortGeneric(strings, <))
+        print(insertionSort.insetionSortGeneric(strings, <))
         
         print(insertionSort.insertionSortGeneric(numbers))
     }
