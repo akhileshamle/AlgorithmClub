@@ -14,6 +14,8 @@
 		045F6CA721B4526D0013A9AD /* InsertionSortRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */; };
 		04678F6D21C67F37003F062F /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04678F6C21C67F37003F062F /* BinarySearch.swift */; };
 		04678F6F21C68170003F062F /* BinarySearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04678F6E21C68170003F062F /* BinarySearchRepository.swift */; };
+		047DB04421CFA24B0092990E /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB04321CFA24B0092990E /* BinarySearchTree.swift */; };
+		047DB04621CFA61B0092990E /* BinarySearchTreeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB04521CFA61B0092990E /* BinarySearchTreeRepository.swift */; };
 		0489462621C51D7D0017A235 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489462521C51D7D0017A235 /* InsertionSort.swift */; };
 		049E0C9F21B2848A001EF06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E0C9E21B2848A001EF06E /* AppDelegate.swift */; };
 		049E0CA421B2848A001EF06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049E0CA221B2848A001EF06E /* Main.storyboard */; };
@@ -53,6 +55,8 @@
 		045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortRepository.swift; sourceTree = "<group>"; };
 		04678F6C21C67F37003F062F /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		04678F6E21C68170003F062F /* BinarySearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchRepository.swift; sourceTree = "<group>"; };
+		047DB04321CFA24B0092990E /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		047DB04521CFA61B0092990E /* BinarySearchTreeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeRepository.swift; sourceTree = "<group>"; };
 		0489462521C51D7D0017A235 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		049E0C9B21B2848A001EF06E /* theSwiftAlgorithmClub_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theSwiftAlgorithmClub_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049E0C9E21B2848A001EF06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				04678F6C21C67F37003F062F /* BinarySearch.swift */,
+				047DB04321CFA24B0092990E /* BinarySearchTree.swift */,
 			);
 			path = Searching;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				045F6CA121B445090013A9AD /* QueueRepository.swift */,
 				045F6CA621B4526D0013A9AD /* InsertionSortRepository.swift */,
 				04678F6E21C68170003F062F /* BinarySearchRepository.swift */,
+				047DB04521CFA61B0092990E /* BinarySearchTreeRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -393,11 +399,13 @@
 				045F6CA021B43CDD0013A9AD /* QueueOptimized.swift in Sources */,
 				049E0CD721B28611001EF06E /* HomeViewController.swift in Sources */,
 				045F6C9E21B43AC90013A9AD /* QueueSimple.swift in Sources */,
+				047DB04621CFA61B0092990E /* BinarySearchTreeRepository.swift in Sources */,
 				049E0CD521B285C8001EF06E /* Stack.swift in Sources */,
 				049E0C9F21B2848A001EF06E /* AppDelegate.swift in Sources */,
 				049E0CDD21B28CA8001EF06E /* StackRepository.swift in Sources */,
 				04678F6D21C67F37003F062F /* BinarySearch.swift in Sources */,
 				04678F6F21C68170003F062F /* BinarySearchRepository.swift in Sources */,
+				047DB04421CFA24B0092990E /* BinarySearchTree.swift in Sources */,
 				0489462621C51D7D0017A235 /* InsertionSort.swift in Sources */,
 				049E0CA721B2848A001EF06E /* theSwiftAlgorithmClub_iOS.xcdatamodeld in Sources */,
 				045F6CA721B4526D0013A9AD /* InsertionSortRepository.swift in Sources */,
